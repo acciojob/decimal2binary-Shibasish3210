@@ -5,8 +5,8 @@ function decimalToBinary(num) {
 		str += num % 2;
 		num = Math.floor(num/2);
 	}
-  alert(str.split('').reverse().join(''));
+  return(str.split('').reverse().join(''));
 }
-decimalToBinary(10);
+// decimalToBinary(10);
 
 window.decimalToBinary = decimalToBinary;
